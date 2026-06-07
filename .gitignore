@@ -1,8 +1,14 @@
-tt.*
-.tests
-doc/tags
-debug
-.repro
-foo.*
+# Neovim & LazyVim artifacts
 *.log
-data
+/debug
+/doc/tags
+/.repro
+/.tests
+
+# Compiled and built files
+/build
+
+# OS files
+.DS_Store
+Thumbs.db
+
